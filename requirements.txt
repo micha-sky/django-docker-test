@@ -1,0 +1,9 @@
+django
+django-jinja
+social-auth-app-django
+google-api-python-client
+psycopg2
+djangorestframework
+markdown
+django-filter
+pyjwkest

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Last 100 emails</title>
+</head>
+<body>
+{%  if emails_list %}
+
+    <ul>
+        {% for email in emails_list %}
+        <li>{{ email }}</li>
+        {% endfor %}
+    </ul>
+{% else %}
+    <p>No emails</p>
+{% endif %}
+</body>
+</html>
